@@ -13,12 +13,14 @@
     "@tabler/icons-react": "^3.31.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.10",
-    "motion": "^12.4.10",
+    "motion": "^12.9.4",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.0.0",
+    "react-pdf": "^9.2.1",
     "simplex-noise": "^4.0.3",
-    "tailwind-merge": "^3.0.2"
+    "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -26,6 +28,7 @@
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",

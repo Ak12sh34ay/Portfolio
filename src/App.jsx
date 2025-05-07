@@ -7,6 +7,7 @@ import MyWork from "./Components/MyWork/MyWork";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import CursorCanvas from "./Components/CursorCanvas";
+
 const App = () => {
   return (
     <>

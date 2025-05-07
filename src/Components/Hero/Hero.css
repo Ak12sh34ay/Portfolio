@@ -6,10 +6,32 @@
 }
 
 .hero img {
-  width: 240px;
+  width: 200px;
+  height: auto;
+  margin: 50px auto;
+  border: 2px solid #333; /* Optional outline */
   border-radius: 50%;
-  height: 246px;
-  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rotating-image {
+  transition: transform 0.8s linear;
+}
+
+.rotating-image:hover {
+  animation: rotateClockwise 8s linear infinite;
+}
+
+@keyframes rotateClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .hero h1 {
@@ -56,6 +78,11 @@
   /* border: 2px solid white; */
   cursor: pointer;
   /* color: red; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .hero-connect:hover {
